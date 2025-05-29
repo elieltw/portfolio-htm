@@ -1,0 +1,50 @@
+ body{
+    font-family: sans-serif;/* definir la police d'ecriture*/
+    background: gray;/* l'arriere plan*/
+    color:black; 
+    line-height: 1.6;/* pour definir la hauteur de la ligne*/
+}
+header{
+    background-color: rgb(14, 7, 66);/* definir la couleur de l'arriere plan*/
+    color: white;
+    text-align: center;/*pour la position du text*/
+    padding: 40px 20px;/* marge interne*/
+    box-shadow: 0 2px 2px black;/*pour mettre une ombre*/
+}
+header h1{
+    font-size: 2.5em;/* definir la taille du text */
+}
+header p{
+    font-size: 1.2em;
+    color: gray;
+}
+nav{
+    margin-top: 15px;/*sert á definir l'espace exterieur au dessus d'un element*/
+}
+nav a{
+    color: white;
+    margin: 0 10px;
+}
+nav a:hover {
+    color: blue;
+}
+section{
+    padding: 20px;
+    max-width: 900px;/* sert á definir la largeur maximal qu'un text peut avoir*/
+    margin: 40px auto;
+    background: white;
+    border-radius: 10px;/* sert á arrondire les coins*/
+    box-shadow: 0 4px 15px rgb(42, 39, 39);/* sert á ajouter une ombre*/
+}
+h2{
+    margin-bottom: 15px;/* sert á definir l'espace en dessous d'un element*/
+    color: rgb(82, 82, 239);
+}
+footer{
+    text-align: center;
+    padding: 15px;
+    background-color:rgb(14, 7, 66);
+    color: white;
+    font-size: 0.9em;
+    margin-top: 40px;/* permet de definir l'espace au dessus d'un element*/
+}
